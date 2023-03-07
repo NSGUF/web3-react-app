@@ -52,6 +52,10 @@ export const CHAINS: {
         ].filter((url) => url !== ''),
         name: 'Mainnet',
     },
+    1337: {
+        urls: ['http://localhost:7545/'].filter((url) => url !== ''),
+        name: 'TestNet',
+    },
     3: {
         urls: [
             process.env.infuraKey
